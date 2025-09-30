@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('checking') {
             steps {
-                git branch: 'maven_test', url: 'https://github.com/Entorkrasniqi/SEP01_Group6.git'
+                git branch: 'main', url: 'https://github.com/aRedBoss/SoftwareEngineeringProject1.git'
             }
         }
         stage ('build') {
